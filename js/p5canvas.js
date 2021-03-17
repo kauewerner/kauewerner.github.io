@@ -42,13 +42,10 @@ function setup(){
 
     writeColor = color(240, 255); 
     backgroundColor = color(255, 255);
-    // backgroundColor = color(40, 255);
     lineColor = color(25, 255);
-    // lineColor = color(200, 255);
     boxColor = color(200, 255);
 
     init();
-    // createAllLinkButtons();
 }
 
 function init(){
@@ -81,14 +78,9 @@ function init(){
             }
             initialPosition.push({x: pos.x, y: pos.y});
             let tempName;
-            // console.log(pos);
             if (r == 1){
-            // if (idx == 1){
-            //     if(myName[r] != ' '){
-            //         tempName = myName[r];
                 if(myName[idx] != ' '){
                     tempName = myName[idx];
-                    // ellipse(pos.x,pos.y,5);
                     letters.push(new LetterElement(tempName,pos,lineColor,letterColor));
                 }  
             }
@@ -99,7 +91,6 @@ function init(){
     }
     if(flagCreateButton)
         createAllLinkButtons();
-    // flagCreateButton = false;
 }
 
 function createAllLinkButtons(){
@@ -107,11 +98,9 @@ function createAllLinkButtons(){
     for(let idx = 0; idx < buttonParameters.link.length; idx++){
         buttons.push(createA(buttonParameters.link[idx],buttonParameters.name[idx]));
         buttons[idx].class("btn btn-default btn-lg page-scroll");
-        // buttons[idx].class("page-scroll");
         buttons[idx].elt.id = "button_"+idx.toString();
         buttons[idx].style('color',color(lineColor));
         buttons[idx].style('text-decoration',"none");
-        // buttons[idx].style('text-align',"left");
         buttons[idx].style('background-color', writeColor);
         buttons[idx].position(0.5*windowWidth - buttons[idx].width/2, buttonParameters.position.y[idx]*windowHeight/(myName.length));
         buttons[idx].mouseOver(activateMovement);
@@ -156,7 +145,6 @@ function resetButton(button){
 function updateCanvas(){
     background(backgroundColor);
     fill(boxColor);
-    // stroke(lineColor);
     stroke(200);
     for(let idx = 0; idx < initialPosition.length; idx++){
         if( idx%10 == 0 ){
@@ -172,7 +160,6 @@ function updateCanvas(){
         fill(200,200);
         for(let idx = 0; idx < 100; idx++){
             rect(currentBtnPosition.x - fontSize + random(8*fontSize),currentBtnPosition.y - fontSize + random(4*fontSize),random(windowWidth/40));
-            // ellipse(currentBtnPosition.x + random(windowWidth/4),currentBtnPosition.y + random(windowHeight/4),random(windowWidth/40));
         }   
     }
 
@@ -202,7 +189,6 @@ function windowResized(){
     }
         
     init();
-    // updateCanvas()
 }
 
 function draw(){
