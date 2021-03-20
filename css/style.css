@@ -228,21 +228,21 @@ hr {
 
 
 
-/* Sound coding Section */
-#soundcoding {
+/* Audio Section */
+#audio {
 	padding-top: 125px;
 	padding-bottom: 125px;
 }
-#soundcoding .about-text {
+#audio .about-text {
 	margin-left: 10px;
 }
-/* #soundcoding h2 {
+/* #audio h2 {
 
 }
-#soundcoding hr {
+#audio hr {
 } */
 
-#soundcoding p {
+#audio p {
 	color: rgba(25,25,25,1);
 	margin-top: 20px;
 	margin-bottom: 30px;
@@ -298,8 +298,8 @@ hr {
 	margin-bottom: 30px;
 }
 
-/* Sound coding Section */
-#soundcoding {
+/* Audio Section */
+#audio {
 	background: rgba(230, 230, 230, 1)fff; /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(230, 230, 230, 1)fff 0%, rgba(230, 230, 230, 1) 49%, rgba(230, 230, 230, 1)fff 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(230, 230, 230, 1)fff), color-stop(49%, rgba(230, 230, 230, 1)), color-stop(100%, rgba(230, 230, 230, 1)fff)); /* Chrome,Safari4+ */
@@ -415,7 +415,7 @@ ol.type li a {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
-#soundcoding i.fa {
+#audio i.fa {
 	font-size: 20px;
 	padding: 5px;
 	color: #E87E04;

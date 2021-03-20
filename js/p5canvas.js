@@ -13,13 +13,13 @@ let currentBtnPosition = {x: 0 , y: 0};
 let buttonParameters = {
     link: ['#about',
             '#acoustics',
-            '#soundcoding',
+            '#audio',
             '#music',
             '#vr'
         ],
     name: ['ABOUT',
             'ACOUSTICS',
-            'SOUND CODING',
+            'AUDIO',
             'MUSIC',
             'VR'
         ],
