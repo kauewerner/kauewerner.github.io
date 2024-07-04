@@ -15,13 +15,13 @@ let buttonParameters = {
             '#soundbasedportfolio',
             '#researchandwork',
             '#otherstuff',
-            // './pt/index.html'
+            // '../index.html'
         ],
-    name: ['ABOUT',
-            'SONIC PORTFOLIO',
-            'RESEARCH <---> WORK',
+    name: ['SOBRE',
+            'PORTFOLIO SÔNICO',
+            'PERQUISA <---> TRABALHO',
             'OUTRO',
-            // 'PT/BR'
+            // 'EN'
         ],
     position: {
         x: [0, 0, 0],
