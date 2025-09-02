@@ -19,7 +19,7 @@ let buttonParameters = {
         ],
     name: ['SOBRE',
             'PORTFOLIO SÔNICO',
-            'PERQUISA <---> TRABALHO',
+            'PESQUISA <---> TRABALHO',
             'OUTRO',
             // 'EN'
         ],
