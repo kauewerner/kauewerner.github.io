@@ -14,14 +14,14 @@ let buttonParameters = {
     link: ['#about',
             '#soundbasedportfolio',
             '#researchandwork',
-            '#otherstuff',
-            // './pt/index.html'
+            '#contact',
+            // '../index.html'
         ],
-    name: ['ABOUT',
-            'SONIC PORTFOLIO',
-            'RESEARCH <---> WORK',
-            'OUTRO',
-            // 'PT/BR'
+    name: ['SOBRE',
+            'PORTFOLIO SÔNICO',
+            'PESQUISA <---> TRABALHO',
+            'CONTATO',
+            // 'EN'
         ],
     position: {
         x: [0, 0, 0],
