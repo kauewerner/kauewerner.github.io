@@ -18,7 +18,7 @@ let buttonParameters = {
             // '../index.html'
         ],
     name: ['SOBRE',
-            'PORTFOLIO SÔNICO',
+            'PORTFÓLIO SÔNICO',
             'PESQUISA <---> TRABALHO',
             'CONTATO',
             // 'EN'
